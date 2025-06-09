@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Hola mundo
-        run: echo "Hola mundo $CodigoFacilito"
+        run: echo "Hola mundo $NAME"
 
   second_job:
     needs: first_job
