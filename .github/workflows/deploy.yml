@@ -3,9 +3,16 @@ name: Deploy to server
 on: push
 
 jobs:
-  first_jobs:
+  first_job:
     runs-on: ubuntu-latest
 
     steps:
       - name: Hola mundo
         run: echo "Hola mundo"
+
+  second_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hola mundo
+        run: echo "Hola mundo segundo"
