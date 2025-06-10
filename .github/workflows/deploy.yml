@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Working dir
-        run: echo $GITHUB_OUTPUT
+        run: echo "my_variable=hola Mundo" >> $GITHUB_OUTPUT
 
   second_job:
     needs: first_job
